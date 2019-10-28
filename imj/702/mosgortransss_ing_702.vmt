@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "metrostroi_skins/imj/702/mosgortransss_ing_702"
+	"$model" "1"
+	"$alphatest" "1"
+  	"$allowalphatocoverage" "1"
+}
