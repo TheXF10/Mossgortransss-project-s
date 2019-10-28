@@ -1,0 +1,12 @@
+События keydown и keyup
+Событие keydown происходит при нажатии клавиши, а keyup – при отпускании.
+
+event.code и event.key
+Свойство key объекта события позволяет получить символ, 
+а свойство code – «физический код клавиши».
+
+document.addEventListener('keydown', function(event) {
+  if (event.code == 'KeyZ' && (event.ctrlKey || event.metaKey)) {
+    alert('Отменить!')
+  }
+});
